@@ -1,0 +1,41 @@
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+    .small {}
+    .medium {}
+    .large {}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    .small {
+        width: 66%;
+    }
+    .medium {
+        width: 33%;
+    }
+    .large {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    .small {
+        width: 30%;
+        display: inline-block;
+    }
+    .medium {
+        width: 30%;
+        display: inline-block;
+    }
+    .large {
+        width: 30%;
+        display: inline-block;
+    }
+}
